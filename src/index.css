@@ -6,9 +6,16 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: rgb(131, 58, 180);
-  background: linear-gradient(90deg, #deaaff 0%, #d8bbff 25%, #d0d1ff 50%, #c8e7ff 75%, #c0fdff 100%);
+  background: linear-gradient(
+    90deg,
+    #deaaff 0%,
+    #d8bbff 25%,
+    #d0d1ff 50%,
+    #c8e7ff 75%,
+    #c0fdff 100%
+  );
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   height: 100vh;
@@ -16,7 +23,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 
 @keyframes gradient {
   0% {

@@ -1,13 +1,13 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 h1 {
-    color: #0000002e;
+  color: #0000002e;
 }
 
 h2 {
-    color: #3f3b3b47;
+  color: #3f3b3b47;
 }
